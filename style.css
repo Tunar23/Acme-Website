@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 15px/1.5 "Open Sans", sans-serif;
+  background: #f4f4f4;
+}
+
+/*Global sector*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+.button-1 {
+  height: 38px;
+  border: 0;
+  padding: 0 20px 0 20px;
+  background-color: #e8491d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.dark {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #35424a;
+  color: #fff;
+}
+
+/*Header sector satart*/
+
+header {
+  background-color: #35424a;
+  min-height: 70px;
+  padding-top: 30px;
+  color: #fff;
+  border-bottom: 3px solid #e8491d;
+}
+
+header a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.highlight,
+.current {
+  color: #e8491d;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+/*Hero section start*/
+
+#hero {
+  min-height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./Image/bgrpg4.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+#hero h1 {
+  font-size: 55px;
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+/*News-letter*/
+
+#news-letter {
+  padding: 12px;
+  color: #fff;
+  background: #35424a;
+}
+
+#news-letter h1 {
+  float: left;
+}
+
+#news-letter form {
+  float: right;
+  margin-top: 15px;
+}
+
+#news-letter input[type="email"] {
+  padding: 5.7px;
+  height: 25px;
+  width: 250px;
+  outline: none;
+}
+
+/*Course section start*/
+
+#course {
+  margin: 64px;
+}
+
+#course .box {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 15px;
+}
+
+#course .box img {
+  width: 90px;
+}
+
+/*Footer section satart*/
+
+footer {
+  padding: 10px;
+  margin-top: 10px;
+  background: #e8491d;
+  border-top: 3px solid #35424a;
+  color: #fff;
+  text-align: center;
+}
+
+/*About Page start*/
+
+#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+}
+
+/*Contact section start*/
+
+ul#contacts li {
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  border: 1px solid #cccc;
+}
+
+aside#sidebar .quote div input,
+aside#sidebar .quote div textarea {
+  width: 90%;
+  padding: 10px;
+}
